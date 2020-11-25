@@ -6,7 +6,8 @@ const Carousels = () => {
 		$('.carousel').carousel({
 			interval: 3000,
 			keyboard: true,
-			pause: 'hover',
+            pause: 'hover',
+            wrap: false,  // end - no wrap around. end
 		});
 	});
 
